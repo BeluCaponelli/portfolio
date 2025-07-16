@@ -847,7 +847,7 @@ footer span {
     position: relative;
     min-width: 100%;
     gap: 2.5rem;
-    margin-top: 4.5rem;
+    margin-top: 15rem;
     background: none;
   }
 
@@ -867,7 +867,7 @@ footer span {
 
   .project-details-box {
     position: relative;
-    margin-top: 2.5rem;
+    /*margin-top: 2.5rem;*/
     padding: 0;
     max-width: 50%;
   }
