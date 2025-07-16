@@ -465,7 +465,7 @@ main {
   display: flex;
   flex-direction: column-reverse;
   max-width: 35rem;
-  max-height: 58rem;
+  max-height: auto;
   background: rgb(38, 50, 67);
   box-shadow: 0 1rem 2rem 0 rgba(27, 27, 27, 0.1);
 
@@ -1073,11 +1073,11 @@ footer span {
 
   @media screen and (max-width: 719px) {
   .project {
-    max-height: none; /* 🔧 Eliminar el límite que puede cortar el contenido */
+    max-height: auto; /* 🔧 Eliminar el límite que puede cortar el contenido */
   }
 
   .project-img-link > img {
-    max-height: 200px; /* 🔧 Limita altura de la imagen para que no tape el texto siguiente */
+    max-height: auto; /* 🔧 Limita altura de la imagen para que no tape el texto siguiente */
     object-fit: cover;
   }
 
