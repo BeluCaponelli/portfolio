@@ -1,6 +1,5 @@
 /* FONT LINK/IMPORT */
-@import url(../css/font-root-styles/general-sans.css);
-@import url(../css/font-root-styles/okinesans.css);
+
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Nunito+Sans:wght@300;400;600;700&display=swap');
 
@@ -240,19 +239,19 @@ nav img {
   color: rgba(24, 185, 207, 0.9);
 }
 
-.nav-link:nth-child(4):hover {
+.nav-link:nth-child(5):hover {
   transform: scale(1.08);
   background: transparent;
   transition: transform 0.4s ease-in-out;
 }
 
-.nav-link:nth-child(4) a {
+.nav-link:nth-child(5) a {
   display: block;
   padding: 0.8rem 2.5rem;
   cursor: pointer;
 }
 
-.nav-link:nth-child(4) a {
+.nav-link:nth-child(5) a {
   color: rgb(204, 213, 243);
 }
 
@@ -341,7 +340,7 @@ main {
 }
 
 .cta2,
-.nav-link:nth-child(4) {
+.nav-link:nth-child(5) {
   position: relative;
   border-radius: 1rem;
   border-image-slice: 1;
@@ -354,7 +353,7 @@ main {
 }
 
 .cta2::after,
-.nav-link:nth-child(4)::after {
+.nav-link:nth-child(5)::after {
   position: absolute;
   content: "";
   top: -1.8px;
@@ -1092,4 +1091,43 @@ footer span {
 }
 
 
+}
+
+
+
+/* CERTIFICATIONS SECTION */
+#certifications {
+  padding-bottom: 10rem;
+}
+
+.certification-category {
+  margin-bottom: 4rem;
+}
+
+.certification-header {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.certification-header img {
+  width: 4rem;
+  height: auto;
+}
+
+.certification-category h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #7e92d9;
+}
+
+.certification-category ul {
+  padding-left: 2rem;
+  list-style-type: disc;
+}
+
+.certification-category li {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
 }
